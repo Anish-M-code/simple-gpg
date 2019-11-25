@@ -1,6 +1,6 @@
 #flag=imp
-/* This project was developed by M.Anish as way to learn python3 programming. Though care has been taken to
-avoid bugs, bugs make exist.*/
+''' This project was developed by M.Anish as way to learn python3 programming. Though care has been taken to
+avoid bugs, bugs make exist.'''
 
 import os
 import hashlib
