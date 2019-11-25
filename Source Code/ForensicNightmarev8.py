@@ -1,4 +1,7 @@
 #flag=imp
+#[THIS IS A STABLE RELEASE]
+#[ VERSION 8.0 ]
+
 ''' This project was developed by M.Anish as way to learn python3 programming. Though care has been taken to
 avoid bugs, bugs make exist.'''
 
