@@ -2,8 +2,8 @@
 #[THIS IS A STABLE RELEASE]
 #[ VERSION 8.0 ]
 
-''' This project was developed by M.Anish as way to learn python3 programming. Though care has been taken to
-avoid bugs, bugs make exist.'''
+''' This project was developed by M.Anish as way to learn python3 programming during 1st semester and improved ever since. 
+Though care has been taken to avoid bugs, bugs make exist.'''
 
 import os
 import hashlib
