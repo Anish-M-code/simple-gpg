@@ -2,8 +2,8 @@
 #[THIS IS A STABLE RELEASE]
 #[ VERSION 8.0 ]
 
-''' This project was developed by M.Anish as way to learn python3 programming during 1st semester and improved ever since. 
-Though care has been taken to avoid bugs, bugs make exist.'''
+''' This project was developed by M.Anish as way to learn python3 programming during 1st semester and has improved it ever since. 
+Though care has been taken to avoid bugs, bugs may exist.'''
 
 import os
 import hashlib
@@ -559,7 +559,7 @@ def main():
   gpg()
   print('\n-----Forensic Nightmare-----\n')
 
-  print("A Crossplatform Opensource tool using gnupg for strong cryptography\n which is often a forensic analyst's Nightmare.")
+  print("A Crossplatform Opensource tool using gnupg for strong cryptography.")
   print('\nOS Detected:',platform.system())
   print('Python Version:',platform.python_version())
   print('Python Implementation:',platform.python_implementation())
