@@ -2,8 +2,25 @@
 #[THIS IS A STABLE RELEASE]
 #[ VERSION 8.0 ]
 
+# Forensic Nightmare
+# Copyright (C) 2018-2019 M.Anish <aneesh25861@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 ''' This project was developed by M.Anish as way to learn python3 programming during 1st semester and has improved it ever since. 
 Though care has been taken to avoid bugs, bugs may exist.'''
+
 
 import os
 import hashlib
