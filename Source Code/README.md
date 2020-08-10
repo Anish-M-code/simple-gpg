@@ -1,8 +1,6 @@
 This program requires no installation.
 You can Execute this Python Program like any other Simple Python Program.
 
-NOTE: THIS PROGRAM HAS NOT BEEN TESTED ON MAC OS YET! MAC USERS CAUTION!
-
 You can verify this software using my OPENPGP Key from here : https://outflaw.blogspot.com/2019/12/my-pgp-key.html
 
 On windows after navigating to the directory where the program is present using command prompt following line is enough 
