@@ -15,4 +15,4 @@ Features:-
 5)Some enhancements were made , the number of iterations for hashing encryption keys were made higher for better security for symmetric file encryption and bulk encryption of individual files using aes256.
 
 NOTE: Like all other software this project may have bugs, though care has been taken to avoid bugs.
-      This project was done during my college 1st year so it might have poor code readability.
+      This mini project was done during my college 1st year to learn basics of Python Programming.
