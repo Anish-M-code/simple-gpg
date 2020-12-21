@@ -5,7 +5,7 @@ A simple Crossplatform Commandline Program Developed Using Python3 to make GNU P
 Note: To use this program on windows please download and install gpg4win from https://gpg4win.org/ and for mac install gpgtools from https://gpgtools.org/ 
 
 
-##Features:-
+## Features:-
 
 1)Hash Calculator: supports Sha3_256 and sha3_512 using hashlib rest all hash algorithms using gnupg.
 
