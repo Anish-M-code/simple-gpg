@@ -17,7 +17,7 @@ Note: To use this program on windows please download and install gpg4win from ht
 
 3) Asymmetric Cryptography Manager to handle Asymmetric Cryptography using gnupg.
 
-<img src="https://github.com/Anish-M-code/simple-gpg/blob/master/screenshots/symmetric%20encryption.png">
+<img src="https://github.com/Anish-M-code/simple-gpg/raw/master/screenshots/asymmetric%20encryption.png">
 
 4) Bulk Encryption of individual files ( Each file is individually encrypted ) using AES 256 or with a OPENPGP public key available under Asymmetric Cryptography Manager.
 
