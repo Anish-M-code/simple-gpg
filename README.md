@@ -4,6 +4,25 @@ A simple Crossplatform Commandline Program Developed Using Python3 to make GNU P
 <img src="https://github.com/Anish-M-code/simple-gpg/raw/master/screenshots/simplegpg.png">
 Note: To use this program on windows please download and install gpg4win from https://gpg4win.org/ and for mac install gpgtools from https://gpgtools.org/ 
 
+Quick Installation
+------------------
+
+Install from [PyPI](https://pypi.org/project/simple-gpg/):
+
+```
+pip install simple-gpg
+```
+Then run following commands in terminal/powershell to get started:-
+
+For Windows:
+```
+py -m simple_gpg
+```
+For Linux based Distributions:
+```
+python3 -m simple_gpg
+```
+
 
 ## Features:-
 
