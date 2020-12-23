@@ -7,12 +7,14 @@ Note: To use this program on windows please download and install gpg4win from ht
 Quick Installation
 ------------------
 
-Install from [PyPI](https://pypi.org/project/simple-gpg/):
+To Install from [PyPI](https://pypi.org/project/simple-gpg/):
+
+Run the following commands in Linux terminal / Windows powershell / command prompt to get started:-
 
 ```
 pip install simple-gpg
 ```
-Then run following commands in terminal/powershell to get started:-
+Then :-
 
 For Windows:
 ```
