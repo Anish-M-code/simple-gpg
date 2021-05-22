@@ -9,22 +9,17 @@ Quick Installation
 
 To Install from [PyPI](https://pypi.org/project/simple-gpg/):
 
-Run the following commands in Linux terminal / Windows powershell / command prompt to get started:-
+Run the following commands in Linux terminal / Windows powershell / command prompt to install:-
 
 ```
 pip install simple-gpg
 ```
-Then :-
+Then simply type the following command to get started :- 
 
-For Windows:
 ```
-py -m simple_gpg
+simple-gpg
 ```
-For Linux based Distributions:
-```
-python3 -m simple_gpg
-```
-
+To run the program by directly downloading from github refer [ Instructions](/Install.md) here.
 
 ## Features:-
 
