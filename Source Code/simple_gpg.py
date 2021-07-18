@@ -259,7 +259,7 @@ def ciphercall():
             digest='--s2k-digest-algo sha512 '
         else:
             digest=''
-        os.system('gpg -o '+out+' --s2k-mode 3 --s2k-count 65000000 '+digest+'--cipher-algo '+algo+' -c '+file)
+        os.system('gpg -o '+out+' --s2k-mode 3 --s2k-count 65011712 '+digest+'--cipher-algo '+algo+' -c '+file)
         end()
         main()
 
@@ -440,7 +440,7 @@ def cipher2call():
               os.chdir(fname)
               for unit in os.listdir():
                   if os.path.isfile(unit):
-                     os.system("gpg --s2k-mode 3 --s2k-count 65000000 --cipher-algo aes256 -sc  "+unit)
+                     os.system("gpg --s2k-mode 3 --s2k-count 65011712 --cipher-algo aes256 -sc  "+unit)
                      os.remove(unit)
                     
            tske()
