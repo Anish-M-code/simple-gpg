@@ -6,10 +6,15 @@ You can verify this software using my OPENPGP Key from here : https://outflaw.bl
 On windows after navigating to the directory where the program is present using command prompt following line is enough 
 to start the program , you can even run using IDLE:-
 
+```
 py simple_gpg.py
-
+```
 On linux after navigating to the directory where the program is present using terminal following line is enough 
 to start the program:-
 
+```
 python3 simple_gpg.py
+```
+
+
 
