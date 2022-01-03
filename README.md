@@ -1,5 +1,5 @@
 # simple-gpg
-A simple Crossplatform Commandline Program Developed Using Python3 to make GNU Privacy Guard Program easy to use for beginners.
+A simple Crossplatform Commandline Program Developed Using Python3 to run GNU Privacy Guard Program in safest and easiest way for beginners.
 
 <img src="https://github.com/Anish-M-code/simple-gpg/raw/master/screenshots/simplegpg.png">
 Note: To use this program on windows please download and install gpg4win from https://gpg4win.org/ and for mac install gpgtools from https://gpgtools.org/ 
