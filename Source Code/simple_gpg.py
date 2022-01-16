@@ -1,6 +1,6 @@
 
 # Simple_gpg
-# Copyright (c) 2021 ANISH M < aneesh25861@gmail.com >
+# Copyright (c) 2022 ANISH M < aneesh25861@gmail.com >
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -234,7 +234,7 @@ def ciphercall():
             digest='sha512'
         else:
             digest='sha1'
-        subprocess.run(['gpg','-o',out,'--s2k-mode','3','--s2k-count','65011712','--s2k-digest',digest,'--cipher-algo',algo,'-c',file]).stdout
+        subprocess.run(['gpg','-o',out,'--s2k-mode','3','--s2k-count','65011712','--s2k-digest',digest,'--cipher-algo',algo,'--no-symkey-cache','-c',file]).stdout
         end()
         main()
 
@@ -293,7 +293,7 @@ def decrypt():
     if len(outfile)==0:
        outfile=file[:len(file)-4]
     start()
-    subprocess.run(['gpg','-o',outfile,'-d',file]).stdout
+    subprocess.run(['gpg','-o',outfile,'--no-symkey-cache','-d',file]).stdout
     err(outfile)
     end()
     main()
@@ -396,7 +396,7 @@ def cipher2call():
               os.chdir(fname)
               for unit in os.listdir():
                   if os.path.isfile(unit):
-                     subprocess.run(['gpg','--s2k-mode','3','--s2k-count','65011712','--s2k-digest','sha512','--cipher-algo','aes256','-sc',unit]).stdout
+                     subprocess.run(['gpg','--s2k-mode','3','--s2k-count','65011712','--s2k-digest','sha512','--cipher-algo','aes256','--no-symkey-cache','-sc',unit]).stdout
                      os.remove(unit)
                     
            tske()
@@ -574,5 +574,3 @@ def main():
   cmd()
 main()
  
-
-
