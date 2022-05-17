@@ -21,6 +21,10 @@ simple-gpg
 ```
 To run the program by directly downloading from github refer [ Instructions](/Install.md) here.
 
+## Quick Demo
+
+Run simple-gpg on Repl.it from here:- .[![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://replit.com/@AnishM9/simple-gpg#.replit)
+
 ## Features:-
 
 1) Hash Calculator: supports Sha3_256 and sha3_512 using hashlib rest all hash algorithms using gnupg.
