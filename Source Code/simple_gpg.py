@@ -1,6 +1,6 @@
 
 # Simple_gpg
-# Copyright (c) 2022 ANISH M < aneesh25861@gmail.com >
+# Copyright (c) 2022-2023 ANISH M < aneesh25861@gmail.com >
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
