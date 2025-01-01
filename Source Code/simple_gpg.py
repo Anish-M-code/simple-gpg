@@ -1,6 +1,6 @@
 
 # Simple_gpg
-# Copyright (c) 2022-2023 ANISH M < aneesh25861@gmail.com >
+# Copyright (c) 2022-2025 ANISH M < aneesh25861@gmail.com >
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -162,7 +162,7 @@ def hashcall():
   #Menu to select Hash Algorithms.
   def choice():
       print('\nFollowing Hash Algorithms are supported:-')
-      print('1)md4\n2)md5\n3)Ripemd160\n4)SHA1\n5)SHA224\n6)SHA256\n7)SHA384\n8)SHA512\n9)SHA3_256\n10)SHA3_512\n')
+      print('\nLegacy Algorithms Not Recommended for use:-\n1)md4\n2)md5\n3)Ripemd160\n4)SHA1\n5)SHA224\n\nModern Secure Algorithms:-\n6)SHA256\n7)SHA384\n8)SHA512 [ Recommended ] \n9)SHA3_256\n10)SHA3_512\n')
       print('\nSHA2 and SHA3 are considered secure,rest insecure!\n')
       hcmd()
   
@@ -241,7 +241,7 @@ def ciphercall():
     #Function to select supported ciphers.
     def choice():
         print('\nFollowing Symmetric Encryption Algorithms are supported:-')
-        print('\n1)IDEA\n2)3DES\n3)CAST5\n4)BLOWFISH\n5)AES128\n6)AES192\n7)AES256\n8)TWOFISH\n9)CAMELLIA128\n10)CAMELLIA192\n11)CAMELLIA256\n')
+        print('\nLegacy Encryption Algorithms Not Recommended for use:-\n1)IDEA\n2)3DES\n3)CAST5\n4)BLOWFISH\n\nModern Secure Encryption Algorithms:-\n5)AES128\n6)AES192\n7)AES256 [ Recommended ] \n8)TWOFISH\n9)CAMELLIA128\n10)CAMELLIA192\n11)CAMELLIA256\n')
         ecmd()
         
     #Function to load appropriate functions based on user selection to encrypt files.    
